@@ -2,13 +2,23 @@ MainWidget:
 <MainWidget>:
     canvas:
         Color:
-            rgb: 5,40, 20
+            rgb: 5,4, 2
         Rectangle:
             pos: self.pos
             size: self.size
+# affichage des boutons et du label
     Button:
         text: "Moi"
         size: "100dp", "50dp"
         pos: "100dp", "100dp"
         color: 1, 0, 0, 1
-        bg
+    Button:
+        text: "Toi"
+        size: "100dp", "50dp"
+        pos: "300dp", "500dp"
+        color: 0, 1, 0, 3
+    Label:
+        text: "Bienvenue sur AI"
+        size: "100dp", "50dp"
+        pos: "300dp", "300dp"
+        color: 0, 0, 1, 1
