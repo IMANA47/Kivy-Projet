@@ -1,15 +1,20 @@
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.anchorlayout import AnchorLayout
 from kivy_reloader.app import App
 from kivy.lang import Builder
 from kivy.uix.button import Button
 
 
+
 class MainWidget(Widget):
     pass
 
-class AnchorLayoutExemple(BoxLayout):
+class GridLayoutExemple(GridLayout):
+    pass
+class AnchorLayoutExemple(AnchorLayout):
     pass
 
 class BoxLayoutExemple(BoxLayout):

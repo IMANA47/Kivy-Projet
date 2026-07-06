@@ -1,13 +1,19 @@
-AnchorLayoutExemple:
-# MainWidget:
+GridLayoutExemple:
+
+<GridLayoutExemple>:
+    cols: 2
+    Button:
+        text: "A"
+    Button:
+        text: "B"
+    Button:
+        text: "C"
 
 <AnchorLayoutExemple>:
+    # right, left, center
+    anchor_x: "center"
+    anchor_y: "top"
     Button:
         text: "Moi"
-        size_hint: .5, .5
-        height: "60dp"
-        # x, right, center_x
-        # y, top, center_y
-        pos_hint: { 'top': .5} 
-    Button:
-        text: "Toi"
+        size_hint: .1, .1
+        
